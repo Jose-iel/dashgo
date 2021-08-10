@@ -1,7 +1,7 @@
 import { Flex } from "@chakra-ui/react";
-import { SearchBox } from "./Busca/SearchBox";
+import { SearchBox } from "./SearchBar/SearchBox";
 import { Logo } from "./Logo/Logo";
-import { LoginUser } from "./User/LoginUser";
+import { LoginUser } from "./AvatarUser/LoginUser";
 
 
 
