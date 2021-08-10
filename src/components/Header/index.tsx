@@ -1,7 +1,7 @@
 import { Flex } from "@chakra-ui/react";
-import { SearchBox } from "./SearchBar/SearchBox";
-import { Logo } from "./Logo/Logo";
-import { LoginUser } from "./AvatarUser/LoginUser";
+import { SearchBox } from "./SearchBox";
+import { Logo } from "./Logo";
+import { Profile } from "./Profile";
 
 
 
@@ -19,7 +19,7 @@ export function Header(){
         >
             <Logo />
             <SearchBox />
-            <LoginUser />
+            <Profile />
         </Flex>
     );
 }
